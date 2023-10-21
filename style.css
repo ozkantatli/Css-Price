@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Mukta&family=Open+Sans:wght@300;400&family=Poppins:wght@200;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;  
+}
+
+body{
+    background:#9e9f9f;
+    margin: 50px;
+}
+.container{
+    display: flex;
+    width: 350px;
+    height: 960px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+    color: black;
+  
+}
+
+.card-box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular{
+    padding: 5px;
+    display: flex;
+    font-size: 14px;
+    height: 20px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #9e9f9f;
+    border-radius: 30px;
+    background:#ffffff;
+    color: #0f0f0f;
+}
+
+.card-header{
+    padding-top: 3rem;
+    font-size: 24px;
+}
+
+.card-title{
+    width: 230px;
+    padding-top: 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-box .second{
+    margin: 3rem;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.card-start{
+   
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-price-list{
+    display: flex;
+    flex-direction:row;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.card-price{
+    font-size: 32px;
+}
+.card-month{
+    font-size: 16px;
+    font-weight: 300;
+    color: #636363;
+}
+
+.card-detail-head{
+    font-size: 14px;
+    color: #636363;
+}
+
+.card-button{
+    background: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-button:hover{
+    background:#636363;
+    cursor: pointer;
+}
+
+.third{
+    padding-top: 0; 
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.card-features{
+    padding-top: 0;
+    display: flex;
+    font-size: 16px;
+}
+
+.card-detail{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 300;
+
+}
